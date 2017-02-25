@@ -1,5 +1,8 @@
 <App>
     <ClientPanel>
-        <EditHikePage/>
+        <PageControl>
+            <HomePage/>
+            <EditHikePage/>
+        </PageControl>
     </ClientPanel>
 </App>

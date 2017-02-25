@@ -3,10 +3,6 @@
 
     <ScrollView>
         <StackPanel>
-            <Each Items="{hikes}">
-                <Button Text="{name}" Clicked="{chooseHike}"/>
-            </Each>
-
             <Text Value="{name}"/>
 
             <Text>Name:</Text>
