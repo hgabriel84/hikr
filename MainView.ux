@@ -1,6 +1,6 @@
 <App>
     <Router ux:Name="router"/>
-    
+
     <ClientPanel>
         <Navigator DefaultPath="home">
             <HomePage ux:Template="home" router="router"/>
