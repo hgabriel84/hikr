@@ -5,10 +5,10 @@ var hikes = Observable();
 
 Backend.getHikes()
     .then(newHikes =>
-        hikes.replaceAll(newHikes);
+        hikes.replaceAll(newHikes)
     )
     .catch(error =>
-        console.log("Couldn't get hikes: " + error);
+        console.log("Couldn't get hikes: " + error)
     );
 
 function updateHike(id, name, location, distance, rating, comments) {
@@ -26,7 +26,7 @@ function updateHike(id, name, location, distance, rating, comments) {
     }
     Backend.updateHike(id, name, location, distance, rating, comments)
         .catch(error =>
-            console.log("Couldn't update hike: " + id);
+            console.log("Couldn't update hike: " + id)
         );
 }
 
